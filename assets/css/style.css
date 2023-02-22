@@ -31,7 +31,7 @@ body {
 .nav-left ul li {
   font-size: 1rem;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .nav-left ul li img {
@@ -95,6 +95,13 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-right: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.contact:hover {
+  background-color: #cfcaca;
+  color: #111727;
+  transform: scale(1.1);
 }
 
 .wrap .cv {
@@ -108,36 +115,68 @@ body {
   margin: 50px 70px 60px;
 }
 
-.sosmed .linkedin {
+.linkedin {
   color: white;
   background-color: #111727;
   padding: 5px 10px;
   border-radius: 50%;
   margin: 10px;
+  transition: 0.5s ease-in-out;
 }
 
-.sosmed .ig {
+.ig {
   color: white;
   background-color: #111727;
-  padding: 6px 10px;
+  padding: 5px 10px;
   border-radius: 50%;
   margin: 10px;
+  transition: 0.5s ease-in-out;
 }
 
-.sosmed .fb {
+.fb {
   color: white;
   background-color: #111727;
   padding: 5px 12px;
   border-radius: 50%;
   margin: 10px;
+  transition: 0.5s ease-in-out;
 }
 
-.sosmed .twitter {
+.twitter {
   color: white;
   background-color: #111727;
   padding: 5px 9px;
   border-radius: 50%;
   margin: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.linkedin:hover {
+  color: #111727;
+  background-color: #cfcaca;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.ig:hover {
+  color: #111727;
+  background-color: #cfcaca;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.fb:hover {
+  color: #111727;
+  background-color: #cfcaca;
+  border-radius: 50%;
+  padding: 5px 12px;
+}
+
+.twitter:hover {
+  color: #111727;
+  background-color: #cfcaca;
+  border-radius: 50%;
+  padding: 5px 10px;
 }
 
 .card {
